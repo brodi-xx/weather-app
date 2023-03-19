@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Sono', sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?weather');
+}
+.card {
+background: #000000d0;
+color: white;
+padding: 2em;
+border-radius: 30px;
+width: 100%;
+max-width: 420px;
+margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+button {
+    margin: .5em;
+    border-radius: 25%;
+    border: #222;
+}
