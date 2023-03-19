@@ -1,3 +1,4 @@
+/* Universal properties */
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +9,7 @@ body {
     background: #222;
     background-image: url('https://source.unsplash.com/1600x900/?weather');
 }
-.card {
+.container {
 background: #000000d0;
 color: white;
 padding: 2em;
@@ -21,12 +22,35 @@ margin: 1em;
 .search {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
 button {
     margin: .5em;
-    border-radius: 25%;
+    border-radius: 50%;
     border: #222;
+    height: 36px;
+    width: 36px;
+    background: #7c7c7c2b;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: .3em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: gray;
+    font-size: 110%;
+}
+
+input:hover {
+    background: #7c7c7c6b;
 }
