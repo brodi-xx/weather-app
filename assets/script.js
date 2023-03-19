@@ -27,7 +27,7 @@
           document.querySelector(".humidity").innerText =
             "Humidity: " + humidity + "%";
           document.querySelector(".wind").innerText =
-            "Wind: " + speed + " mph";
+            "Wind: " + Math.round(speed) + " mph";
           document.querySelector(".weather").classList.remove("loading");},
         search: function () {
           this.fetchWeather(document.querySelector(".search-bar").value);},
