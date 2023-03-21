@@ -16,7 +16,7 @@ background: #000000d0;
 color: white;
 padding: 2em;
 border-radius: 30px;
-width: 100%;
+width: auto;
 max-width: 420px;
 margin: 1em;
 }
@@ -87,3 +87,11 @@ input:hover {
     max-width: 105px;
     max-height: 128px;
 }
+*/
+
+/* Formated for iPhone 12 */
+@media screen and (max-width:391px){
+    .container {
+        font-size: 12px;
+    }
+}  
