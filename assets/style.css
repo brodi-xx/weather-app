@@ -10,7 +10,7 @@ body {
     background-image: url('https://source.unsplash.com/1600x900/?weather');
 }
 
-/* Weather container */
+/* Real-time Weather container */
 .container {
 background: #000000d0;
 color: white;
@@ -30,6 +30,7 @@ margin: 1em;
 }
 
 button {
+    align-items: center;
     margin: .5em;
     border-radius: 50%;
     border: #222;
@@ -60,4 +61,29 @@ input:hover {
 
 .weather.loading{
     visibility: hidden;
+}
+
+/* Future dates
+
+#fourday-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #000000d0;
+    color: white;
+    font-size:x-small;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    max-height: 64px;
+    margin: 1em;
+}
+
+.future {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.3rem;
+    max-width: 105px;
+    max-height: 128px;
 }
