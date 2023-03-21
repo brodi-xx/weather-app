@@ -4,6 +4,7 @@ In this project, the user can search a city and get the weather pulled for said 
 <ul>The weather app will save a user's most recently searched city after closing</ul>
 <ul>This is a simple weather table that can viewed on most screens even as small as an iPhone 12</ul>
 <ul>I ulitized TAs, youtube, a friend who is a professional developer, and W3 to help me complete this.
+<ul> Dev tools used included: openweather API, React Icons Extension, Unsplash API for background images, and Google Fonts</ul>
 <br>
 <img src="https://github.com/brodi-xx/weather-app/blob/main/assets/IMG_E3951BC64F07-1.jpeg">
 
