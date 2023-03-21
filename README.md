@@ -5,5 +5,5 @@ In this project, the user can search a city and get the weather pulled for said 
 <ul>This is a simple weather table that can viewed on most screens even as small as an iPhone 12</ul>
 <ul>I ulitized TAs, youtube, a friend who is a professional developer, and W3 to help me complete this.
 <br>
-<img src="/Users/brodi/bootcamp/challenges/weather-app/assets/IMG_E3951BC64F07-1.jpeg">
+<img src="https://github.com/brodi-xx/weather-app/blob/main/assets/IMG_E3951BC64F07-1.jpeg">
 
